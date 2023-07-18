@@ -4,7 +4,7 @@ node {
    env.PATH="${env.JAVA_HOME}/bin:${mvnHome}/bin:${env.PATH}"
    
    stage 'Checkout'
-   git url: 'https://github.com/hypery2k/angular-spring-boot-sample.git'
+   git url: 'https://github.com/Alfiya-git/angular-spring-boot-sample.git'
 
    stage 'Build'
    sh "${mvnHome}/bin/mvn clean package"
